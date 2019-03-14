@@ -1,0 +1,11 @@
+type User {
+  id: ID! @unique
+  name: String!
+  gear: [Gear]!
+}
+type Gear {
+  id: ID! @unique  
+  name: String!
+  description: String
+  catagory: String!
+}
